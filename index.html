@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Exercise 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Muhamad Ndaru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: url("https://i.ibb.co/CmgVky5/bg-blogtukang.png");
+        }
+
+        #card-background {
+            box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            margin: 10% auto;
+            background: white;
+        }
+
+        .avatar {
+            padding: 10px;
+        }
+
+        .avatar>img {
+            width: 100%;
+            box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .caption {
+            padding: 30px 20px 10px 20px;
+        }
+
+        .caption>h1 {
+            font-size: 25px;
+            color: #343A40;
+        }
+
+        .caption>.status {
+            font-size: 17px;
+            color: #535c68;
+        }
+
+        .caption>p {
+            font-size: 17px;
+            color: #343A40;
+        }
+
+        .line {
+            width: 35%;
+            height: 3px;
+            background: grey;
+            margin: 15px 0;
+        }
+
+        @media screen and (max-width: 380px) {
+            body {
+                padding: 20px;
+            }
+
+            .caption>h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .caption>.status {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .caption>p {
+                font-size: 15px;
+            }
+
+            .line {
+                width: 40%;
+                margin-left: 30%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <center>
-        <h1>Biodata</h1>
-    </center>
+
+    <div class="col-md-6" id="card-background">
+        <div class="row">
+            <div class="col-md-4 avatar">
+                <img src="https://i.ibb.co/swB1Kyk/me2.jpg" class="rounded-circle" alt="Gagal Memuat">
+            </div>
+
+            <div class="col-md-8 caption">
+                <h1>Muhamad Ndaru Hestiafin</h1>
+                <p class="status">Owner Of Tukangilmu Blog Site</p>
+                <div class="line"></div>
+                <p class="about">Nama saya Muhamad Ndaru Hestiafin. Saya lahir di Jakarta pada tanggal
+                    21 April 2002 dan beragama Islam. Saat ini saya sedang
+                    melanjutkan pendidikan (sekolah) di SMKN 2 Jakarta Jurusan Rekayasa Perangkat Lunak (RPL) dan
+                    saat ini saya tinggal di Jln. Kemanggisan Kincir, Palmerah, Jakarta Barat.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
 </body>
+
 </html>
